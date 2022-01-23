@@ -1,0 +1,110 @@
+.header{
+    background-image: url(https://unives.mx/wp-content/uploads/2020/07/programacion1-min-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+} 
+
+.card-effect:hover{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    animation: pulse;
+    animation-duration: 2.5s;
+}
+.card-img-filter{
+    filter: brightness(0.5);
+}
+.card-img{
+    height: 270px;
+}
+.filter{
+    filter: brightness(0.6);
+    height: 900px;
+}
+
+.xd{
+    padding-bottom: 33px;
+    margin-right: -900;
+} 
+
+
+.cl{
+    background-color: rgb(33, 33, 33);
+    height:100%;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer .img-1{
+    display: block;
+    padding: 5px;
+margin-left: auto;
+margin-right: auto;
+
+} 
+.filtro{
+    background-color: rgba(0, 0, 0, 0.679);
+    border-radius: 5px;
+    padding: 5px;
+}
+.altura{
+    height: 600px;
+    border-radius: 5px;
+}
+@media screen and (max-width:767px){
+    .altura{
+        height:450px;
+    }
+}
+@media screen and (max-width:575px){
+    .altura{
+        height: 280px;
+    }
+}
+.c{
+    text-decoration: none;
+}
+
+
+.logonfc{
+    width: 200px;
+    transform: rotate(90deg);
+}
+@media screen and (max-width:991px){
+    .logonfc{
+       margin-left: -50px;
+    }
+}
+@media screen and (max-width:767px){
+    .logonfc{
+        margin-left: 200%;
+        width: 200px;
+        transform: rotate(0deg);
+        margin-bottom: 10px;
+    }
+}
+.logonfc2{
+    width: 300px;
+}
+@media screen and (max-width:425px){
+    .logonfc2{
+        width: 220px;
+    }
+}
+@media screen and (max-width:345px){
+    .logonfc2{
+        width: 190px;
+    }
+}
+.tbtn{
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width:575px){
+    .articlenone{
+        display: none;
+    }
+}
